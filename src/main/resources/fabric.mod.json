@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "frce-load-world",
+  "version": "${mod_version}",
+
+  "name": "Force Load World",
+  "description": "Allow world between 21w08a and 21w14a to load on 21w15a.",
+  "authors": [
+    {
+      "name": "Hendrix_Shen",
+      "contact": {
+        "homepage": "https://github.com/Hendrix-Shen"
+      }
+    }
+  ],
+  "contributors": [],
+  "contact": {
+    "homepage": "https://github.com/Hendrix-Shen",
+    "issues": "https://github.com/Hendrix-Shen/Force-Load-World/issues",
+    "sources": "https://github.com/Hendrix-Shen/Force-Load-World"
+  },
+
+  "license": "GLP-v3",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ]
+  },
+  "mixins": [
+    "ForceLoadWorld.mixins.json"
+  ],
+
+  "depends": {
+    "minecraft": "21w15a",
+    "fabricloader": ">=0.9.0"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

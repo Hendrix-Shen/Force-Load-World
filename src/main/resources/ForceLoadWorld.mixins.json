@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "ForceLoadWorld.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "net.minecraft.world.level.storage.LevelSummaryMixin"
+  ],
+  "client": [
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
